@@ -1,0 +1,101 @@
+.navbar .nabar-default {
+  margin-bottom: 0; }
+
+.header_brand {
+  padding: 1px 0 1px 0px;
+  color: white;
+  font-size: 18px; }
+
+.center_page {
+  margin: 30px 20px 20px 0;
+  padding-left: 50px; }
+
+.cover {
+  background: url("../img/site_showcase_bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  color: white; }
+  .cover .jumbotron {
+    background: none;
+    padding-left: 0; }
+  .cover h1 strong {
+    color: #1caa98; }
+  .cover .center_content {
+    margin-top: 140px; }
+
+le
+.image_phone {
+  margin-top: 50px; }
+
+.bg_green {
+  background: #1caa98; }
+
+footer h1 {
+  color: white;
+  padding-left: 100px; }
+
+.nav_foot {
+  background: #333333;
+  height: 30px;
+  color: white; }
+  .nav_foot ul {
+    display: flex;
+    flex-direction: row; }
+  .nav_foot ul li {
+    list-style-type: none; }
+  .nav_foot ul li a {
+    color: white;
+    padding-left: 30px;
+    text-decoration: none; }
+  .nav_foot p {
+    color: white; }
+
+.list_foot ul {
+  margin-top: 40px;
+  padding-left: 100px; }
+.list_foot ul li {
+  color: white;
+  font-size: 22px;
+  list-style-type: none; }
+
+.logo_apple, .logo_play {
+  padding: 10px; }
+
+@media (max-width: 1200px) {
+  .center_content {
+    width: 600px; }
+
+  .logo_app, .logo_play {
+    margin-right: 5px; } }
+@media (max-width: 768px) {
+  .center_content {
+    width: 100%;
+    margin: 0 10px 10px; }
+
+  .cover {
+    background: #1b222a; }
+
+  .logos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+
+  .logo_apple {
+    display: inline;
+    margin: 0 auto; }
+
+  .page_tittle {
+    width: 100%;
+    margin-top: -100px;
+    margin-left: 0;
+    padding-left: 0;
+    text-align: center; }
+
+  .page_subtittle {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center; } }
+/* about */
+
+/*# sourceMappingURL=styles.css.map */
