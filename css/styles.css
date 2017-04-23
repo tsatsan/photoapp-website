@@ -23,7 +23,6 @@
   .cover .center_content {
     margin-top: 140px; }
 
-le
 .image_phone {
   margin-top: 50px; }
 
@@ -61,28 +60,33 @@ footer h1 {
 .logo_apple, .logo_play {
   padding: 10px; }
 
-@media (max-width: 1200px) {
-  .center_content {
-    width: 600px; }
+@media (min-width: 769px) {
+  .page_tittle {
+    margin-top: -100px; }
 
   .logo_app, .logo_play {
-    margin-right: 5px; } }
+    margin-bottom: 10px; } }
+@media (max-width: 1200) and (min-width: 992) {
+  .center_content {
+    margin-left: -10px; }
+
+  .logos {
+    margin-left: -10px; } }
 @media (max-width: 768px) {
   .center_content {
-    width: 100%;
-    margin: 0 10px 10px; }
+    width: 100%; }
 
   .cover {
-    background: #1b222a; }
+    background: #1b222a;
+    height: 300px; }
 
   .logos {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; }
+    margin-left: 0;
+    padding-left: 0;
+    text-align: center; }
 
-  .logo_apple {
-    display: inline;
+  .logo_play, .logo_apple {
     margin: 0 auto; }
 
   .page_tittle {
